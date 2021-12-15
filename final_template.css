@@ -1,23 +1,77 @@
 /*This is the affiliated CSS sheet for final_template.html.*/
 
-h1, h3 {
-	font-family: 'Georgia', serif;
+p{
+	font-size: auto;
 }
-p, .lead {
-	font-family: 'Helvetica Neue', sans-serif;
+h1 {
+	font-family: Verdana, Geneva, sans-serif;
+	text-align: center;
+}
+h3 {
+	font-family: Verdana, Geneva, sans-serif;;
+	text-align: left;
+	color: #002f85;
+	font-weight: bold;
+}
+h4 {
+	color: #002f85;
+	font-weight: bold;
+}
+.list-group-item{
+	font-weight: bold;
+	font-style: italic;
+}
+.lead {
+	font-family: Verdana, Geneva, sans-serif;
+	color: darkgray;
+	
 }
 button {
 	margin-left: 10px;
+	background-color: #002f85;
+}
+.figure-caption {
+	color: 	#FCB514;
+	text-align: center;
+	font-weight: bold;
+	font-style: italic;
 }
 .accordion {
 	margin-bottom: 30px;
 }
-.accordion-button {
+.accordion-body{
+	font-size: auto;
+	font-family: Verdana, Geneva, sans-serif;
+}
+button.accordion-button.collapsed, button.accordion-button {
 	font-weight: bold;
+	background-color: #002f85;
+	color: #FCB514;
 }
 .fixed-bottom {
 	margin-left: 10px;
 	margin-top: 30px;
 	padding: 5px;
 	text-align: center;
+	background-color: #002f85;
+	font-style: italic;
+	color: #FCB514;
+}
+.caption {
+	color: #808080;
+	font-style: italic;
+	font-size: 10px;
+}
+a:hover {
+  background-color:#FCB514 ;
+  color:#002f85 ;
+}
+a{
+	color:#FCB514 ;
+}
+.jumbotron-fluid {
+	background-color: #002f85;
+}
+.btn-outline-primary, .btn-outline-primary:hover, .btn-outline-primary:active, .btn-outline-primary:visited {
+    background-color: #002f85 !important;
 }
